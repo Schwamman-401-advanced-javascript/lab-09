@@ -1,0 +1,19 @@
+{
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+    "MONGODB_URI": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "lab-09",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
