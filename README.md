@@ -1,6 +1,6 @@
-# lab-08
+# lab-09
 
-## Express Routing & Connected API
+## API Server
 
 ### Author: Jonathon Schwamman
 
@@ -46,4 +46,6 @@
 * What assertions were made?
 * What assertions need to be / should be made?
 
+#### UML
+* [Whiteboard UML](./docs/UML.jpg)
 
