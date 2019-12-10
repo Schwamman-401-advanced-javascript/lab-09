@@ -1,0 +1,36 @@
+{
+  "name": "api-server-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "test-watch": "jest --watchAll --verbose",
+    "lint": "eslint ."
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.4.0",
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "mongodb-memory-server": "^5.2.5",
+    "mongoose": "^5.6.1",
+    "mongoose-schema-jsonschema": "^1.2.1",
+    "morgan": "^1.9.1",
+    "supergoose": "^0.2.6",
+    "supertest": "^4.0.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "express-swagger-generator": "^1.1.15"
+  }
+}
